@@ -25,5 +25,21 @@
      > vim main.tf
      after writing main.tf file , Initilize the terraform by 
      >terraform init
+
+     To format the terraform file 
+     > terraform fmt
+     To check the terraform file configuration is valid or not
+
+     > terraform validate
+
+     To check the changes which willl take place via our terraform file i.e main.tf
+     > terraform plan
+     if there is any paramter , please put the value of that parameter, for example with single tf file, we want to create the server or instances for stagging, testing and production.
+     
+Now, to create the instances p, please follow the below command :
+     > terraform apply      followed by yes
+     
+
+     
      
  
